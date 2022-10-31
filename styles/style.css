@@ -1,0 +1,58 @@
+@import url('./layout.css');
+
+div > aside {
+border: 1px solid black ;
+border-radius: 1px;
+margin: 1.5em;
+padding: 1em;
+
+}
+
+aside h2 {
+    padding: 1em;
+    background: black;
+    color: aliceblue;
+    border: black;
+    font-size: 25px;
+}
+
+aside footer {
+    background: black;
+    color: aliceblue;
+    padding: 0.6em;
+}
+
+div > main {
+    flex-direction: column;
+
+    padding: 1.5em;
+}
+
+figure  {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    float: left;
+    margin: left;
+    float: left;
+    flex-direction: column;
+}
+
+footer > nav ul {
+display: flex;
+justify-content: space-around;
+background: rgb(240, 207, 24);
+}
+
+footer img {
+    width: 75px;
+    padding: 1em;
+}
+
+footer > p {
+    text-align: center;
+    padding-bottom: 1em;
+    background: rgb(240, 207, 24);
+
+}
+
